@@ -15,7 +15,7 @@ led6 = LED(25)
 led7 = LED(8)
 
 # This variable stores the amount of time we will delay
-delayTime = 1
+delay_time = 1
 
 # This loop runs forever
 while True:
@@ -28,7 +28,7 @@ while True:
     led6.on()
     led7.on()
     # Pause for 1 second
-    sleep(delayTime)
+    sleep(delay_time)
     # Turn the LEDs off
     led1.off()
     led2.off()
@@ -38,4 +38,4 @@ while True:
     led6.off()
     led7.off()
     # Pause for 1 second
-    sleep(delayTime)
+    sleep(delay_time)
