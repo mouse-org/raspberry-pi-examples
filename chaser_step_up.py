@@ -21,19 +21,19 @@ delay_time = 1
 while True:
     # Turns the LEDs on one by one
     led_pin_1.on()
-    sleep(delay_time/2) # wait for a 1/2 second
+    sleep(delay_time/2.0) # wait for a 1/2 second
     led_pin_2.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     led_pin_3.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     led_pin_4.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     led_pin_5.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     led_pin_6.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     led_pin_7.on()
-    sleep(delay_time/2)
+    sleep(delay_time/2.0)
     # Turn the LEDs off
     led_pin_1.off()
     led_pin_2.off()
