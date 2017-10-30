@@ -6,9 +6,9 @@ from time import sleep
 
 # We set the variable led to correspond to
 # GPIO Pin 14 using the LED() function
-led1 = LED(14)
-led2 = LED(15)
-led3 = LED(18)
+led1 = LED(14) # Refer to Pin 14 as led1
+led2 = LED(15) # Refer to Pin 25 as led2
+led3 = LED(18) # Same for 18, 23, 24, 25, and 8
 led4 = LED(23)
 led5 = LED(24)
 led6 = LED(25)
