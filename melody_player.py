@@ -12,7 +12,7 @@ from time import sleep    #import the time library
 # This function will play each note in your melody
 def play_melody():
     # iterate over the notes of the melody:
-    for this_note in range(0, 9):
+    for this_note in range(0, 8):
         # to calculate the note duration, take one second
         # divided by the note type.
         # e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
