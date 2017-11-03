@@ -9,6 +9,7 @@ input_pin = 4
 
 ldr = LightSensor(input_pin)
 
+# Start loop:
 while True:
   print(ldr.value)
   sleep(0.25)
