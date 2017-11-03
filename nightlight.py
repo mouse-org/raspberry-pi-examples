@@ -6,11 +6,11 @@ from gpiozero import LightSensor, LED
 from time import sleep
 
 # Set pins:
-input_pin = 4
+sensor_pin = 4
 led_pin = 14
 
 # Connect pins to functions to use them:
-ldr = LightSensor(input_pin)
+ldr = LightSensor(sensor_pin)
 led = LED(led_pin)
 
 # Start Loop

@@ -5,9 +5,9 @@ from gpiozero import LightSensor
 from time import sleep
 
 # Set input_pin to be pin 4
-input_pin = 4
+sensor_pin = 4
 
-ldr = LightSensor(input_pin)
+ldr = LightSensor(sensor_pin)
 
 # Start loop:
 while True:
