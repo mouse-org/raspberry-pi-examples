@@ -12,6 +12,7 @@ led_pin = 14
 # Connect pins to functions to use them:
 ldr = LightSensor(sensor_pin)
 led = LED(led_pin)
+threshold = 0.3
 
 # Start Loop
 while True:
@@ -20,8 +21,8 @@ while True:
       print(1.0)
     else:
       print(ldr.value)
-      # If the input_pin reads lower than 0.3 turn the light on
-      if ldr.value < 0.3:
+      # If the input_pin reads lower than the threshold turn the light on
+      if ldr.value < threshold:
         led.on()
       else:
         led.off()
