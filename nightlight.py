@@ -12,7 +12,9 @@ led_pin = 14
 # Connect pins to functions to use them:
 ldr = LightSensor(sensor_pin)
 led = LED(led_pin)
-threshold = 0.3
+# If your led is always on try making this number lower.
+# If your led is not turning on, try making this number higher.
+threshold = 0.7
 
 # Start Loop
 while True:
@@ -26,4 +28,6 @@ while True:
         led.on()
       else:
         led.off()
-    sleep(0.25)
+    # Pause for a fraction of a second.
+    # The Raspberry Pi will check the value 400 times per second.
+    sleep(0.0025)
